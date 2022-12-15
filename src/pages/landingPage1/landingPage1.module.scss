@@ -1,0 +1,62 @@
+@import "../../_colors.scss";
+
+#LandingPage {
+
+  .callToActionSection {
+    background-color: $beige;
+    background-image: url("../../assets/images/calltoaaction_bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    color: $dark-gray;
+    text-align: center;
+  }
+
+  h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: $gray2;
+    text-align: justify;
+  }
+
+  .input {
+    box-sizing: border-box;
+    background: transparent;
+    vertical-align: middle;
+    border-left: 0;
+    text-align: left;
+  }
+
+  .inputGroup {
+    height: 52px;
+  }
+
+  .inputIcon {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    border-right: 0;
+    padding-left: 30px;
+  }
+
+  .buttonCallToAction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 48px;
+    gap: 10px;
+    width: 100%;
+    height: 52px;
+    background: $blue;
+    border-radius: 10px;
+  }
+}
