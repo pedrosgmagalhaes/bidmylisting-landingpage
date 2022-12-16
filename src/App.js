@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import LandingPage1 from './pages/landingPage1/';
+const LandingPage1 = React.lazy(() => import('./pages/landingPage1/'));
 
 function App() {
   return (
     <BrowserRouter>
-      <LandingPage1 />
+      <Suspense fallback={<div>Loading...</div>}>
+        <LandingPage1 />
+      </Suspense>
     </BrowserRouter>
   );
 }
