@@ -1,31 +1,33 @@
-import React from "react"
-import styles from "./landingPage1.module.scss"
-import HouseCallToAction from "../../assets/images/house_calltoaction.png"
-import { Container, Form, Image } from 'react-bootstrap'
-import Header from "../../components/header"
-import MapIcon from "../../assets/images/map_icon.svg"
-import Mark from "../../assets/images/mark.svg"
-import Stars from "../../assets/images/stars.svg"
-import GoogleIcon from "../../assets/images/googleIcon.svg"
-import ArrowRightIcon from "../../assets/images/arrowRight.svg"
-import ListingIcon from "../../assets/images/listingIcon.svg"
-import GetSmartedIcon from "../../assets/images/getSmartedIcon.svg"
-import PickWinnerIcon from "../../assets/images/pickWinnerIcon.svg"
-import Journals from "../../assets/images/journals.svg"
-import PriceIcon from "../../assets/images/iconPrice.svg"
-import GetPaidIcon from "../../assets/images/getPaidIcon.svg"
-import Arrow from "../../assets/images/arrow.svg"
-import VideoSample from "../../assets/images/videoPlaceHolder.png"
-import AvatarReca from "../../assets/images/avatarAirRecaWeaver.png"
-import HouseListing from "../../assets/images/houseListing.png"
-import AvatarSteveDavis from "../../assets/images/avatarSteveDavis.png"
-import AvatarBillieAnn from "../../assets/images/avatarBillieAnn.png"
-import ListingContainer from "../../components/listingContainer"
-import AgentTestimonial from "../../components/agentTestimonial"
-import TransparentButton from "../../components/transparentButton"
-import Footer from "../../components/footer"
-import BlueButton from "../../components/blueButton"
-import SearchInput from "../../components/searchInput"
+import React from "react";
+import styles from "./landingPage1.module.scss";
+import { Container, Form, Image } from "react-bootstrap";
+import Header from "../../components/header";
+import SearchInput from "../../components/searchInput";
+import BlueButton from "../../components/blueButton";
+import Footer from "../../components/footer";
+import TransparentButton from "../../components/transparentButton";
+import AgentTestimonial from "../../components/agentTestimonial";
+import ListingContainer from "../../components/listingContainer";
+
+import HouseCallToAction from "../../assets/images/house_calltoaction.png";
+import MapIcon from "../../assets/images/map_icon.svg";
+import Mark from "../../assets/images/mark.svg";
+import Stars from "../../assets/images/stars.svg";
+import GoogleIcon from "../../assets/images/googleIcon.svg";
+import ArrowRightIcon from "../../assets/images/arrowRight.svg";
+import ListingIcon from "../../assets/images/listingIcon.svg";
+import GetSmartedIcon from "../../assets/images/getSmartedIcon.svg";
+import PickWinnerIcon from "../../assets/images/pickWinnerIcon.svg";
+import Journals from "../../assets/images/journals.svg";
+import PriceIcon from "../../assets/images/iconPrice.svg";
+import GetPaidIcon from "../../assets/images/getPaidIcon.svg";
+import Arrow from "../../assets/images/arrow.svg";
+import VideoSample from "../../assets/images/videoPlaceHolder.png";
+import AvatarReca from "../../assets/images/avatarAirRecaWeaver.png";
+import HouseListing from "../../assets/images/houseListing.png";
+import AvatarSteveDavis from "../../assets/images/avatarSteveDavis.png";
+import AvatarBillieAnn from "../../assets/images/avatarBillieAnn.png";
+
 
 function LandingPage() {
   return (
@@ -126,9 +128,9 @@ function LandingPage() {
         </Container>
       </section>
 
-      <section>
+      <section id={styles.workTopAgents}>
         <Container>
-          <h1 className="mt-5">Work with Top Agents in Encinitas</h1>
+          <h1 className="mt-5 mx-3">Work with Top Agents in Encinitas</h1>
           <div className="mt-5">
             <div className="mt-3">
               <AgentTestimonial avatar={AvatarReca} name="AirReca Weaver" city="Chicago, IL"

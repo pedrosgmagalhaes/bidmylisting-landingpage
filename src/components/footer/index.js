@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Image, Col, Row } from 'react-bootstrap';
-import styles from './footer.module.scss';
 import Logo from "../../assets/images/logo.svg";
 import Twitter from "../../assets/images/twitterIcon.svg";
 import Linkedin from "../../assets/images/linkedinIcon.svg";
@@ -10,7 +9,7 @@ import Instagram from "../../assets/images/instagramIcon.svg";
 
 function Footer() {
     return (
-        <section id={styles.Footer}>
+        <section>
             <Container className="mt-5">
                 <div className="d-flex flex-row">
                     <Image className="mt-2" src={Logo} alt="As Seen In" />

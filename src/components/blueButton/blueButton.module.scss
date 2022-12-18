@@ -11,4 +11,9 @@
     height: 52px;
     background: $blue;
     border-radius: 10px;
+    cursor: pointer;
+
+    &:active {
+        background: $lightningBlue;
+      }
   }

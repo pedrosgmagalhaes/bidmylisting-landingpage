@@ -1,9 +1,8 @@
 import React from 'react';
-import styles from "./listingContainer.module.scss"
 
 const ListingComponent = (props) => {
     return (
-        <div id={styles.listingComponent}>
+        <div>
             <div>
                 <div className="d-flex align-items-start justify-content-center flex-column">
                     <div className="d-flex flex-row">

@@ -16,10 +16,21 @@
     flex-grow: 0;
     background: transparent;
     border: 1px solid $dark-gray;
+    cursor: pointer;
+
+    &:active {
+        color: $gray;
+        background: $lightningWhite;
+      }
+
   }
 
   .transparentIcon {
     color: $white;
     padding-left: 5px;
+
+    &:active {
+        background: $dark-gray;
+      }
   }
   
