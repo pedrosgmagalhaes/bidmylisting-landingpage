@@ -1,0 +1,22 @@
+@import "../../_colors.scss";
+
+.input {
+  box-sizing: border-box;
+  background: transparent;
+  vertical-align: middle;
+  border-left: 0;
+  text-align: left;
+}
+
+.inputGroup {
+  background: $white;
+  height: 52px;
+}
+
+.inputIcon {
+  display: flex;
+  justify-content: flex-start;
+  background-color: transparent;
+  border-right: 0;
+  padding-left: 30px;
+}

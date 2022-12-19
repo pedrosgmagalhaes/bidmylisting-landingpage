@@ -1,0 +1,28 @@
+@import "../../_colors.scss";
+
+.header {
+  color: $white;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid $gray;
+}
+
+.header a {
+  color: $white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: $dark-gray;
+}
+
+.phoneNumber {
+  font-family: "DM Sans", sans-serif;
+  color: $dark-gray;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}

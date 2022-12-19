@@ -1,0 +1,15 @@
+// _global.scss
+@import url(./_colors.scss);
+@import url(./_fonts.scss);
+
+body {
+  margin: 0;
+  font-family: "DMSans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 100px;
+}
+
+code {
+  font-family: "DMSans", sans-serif;
+}

@@ -1,0 +1,36 @@
+@import "../../_colors.scss";
+
+
+.transparentButton {
+    width: 100%;
+    padding: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: capitalize;
+    color: $dark-gray;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: transparent;
+    border: 1px solid $dark-gray;
+    cursor: pointer;
+
+    &:active {
+        color: $gray;
+        background: $lightningWhite;
+      }
+
+  }
+
+  .transparentIcon {
+    color: $white;
+    padding-left: 5px;
+
+    &:active {
+        background: $dark-gray;
+      }
+  }
+  

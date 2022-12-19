@@ -1,0 +1,27 @@
+@import "../../_colors.scss";
+
+.reviewCard {
+    width: 343px;
+    min-height: 341px;
+    background: $white;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.07);
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: auto;
+    padding: 5px;
+  }
+
+  .name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+  .city{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.54);
+  }
