@@ -1,5 +1,5 @@
 @import "../../_colors.scss";
-
+@import "../../_fonts.scss";
 
 .transparentButton {
     width: 100%;
@@ -17,6 +17,7 @@
     background: transparent;
     border: 1px solid $dark-gray;
     cursor: pointer;
+    font-family: "DMSans", sans-serif;
 
     &:active {
         color: $gray;
@@ -28,6 +29,7 @@
   .transparentIcon {
     color: $white;
     padding-left: 5px;
+    font-family: "DMSans", sans-serif;
 
     &:active {
         background: $dark-gray;

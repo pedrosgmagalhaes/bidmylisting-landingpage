@@ -1,6 +1,8 @@
 @import "../../_colors.scss";
+@import "../../_fonts.scss";
 
 .header {
+  font-family: "DMSans", sans-serif;
   color: $white;
   padding: 5px 15px;
   display: flex;
@@ -10,11 +12,13 @@
 }
 
 .header a {
+  font-family: "DMSans", sans-serif;
   color: $white;
   text-decoration: none;
 }
 
 .header a:hover {
+  font-family: "DMSans", sans-serif;
   color: $dark-gray;
 }
 

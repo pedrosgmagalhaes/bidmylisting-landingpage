@@ -88,7 +88,7 @@ function LandingPage() {
       </section>
 
       <section className={styles.getStarted}>
-        <Container>
+        <Container classNam="p-4">
           <span className="text-left">
             <h3>Getting Started with BidMyListing® Is Simple</h3>
           </span>
@@ -135,8 +135,8 @@ function LandingPage() {
       </section>
 
       <section className={styles.howItWorks}>
-        <Container>
-          <img className="mt-5 mb-5" src={VideoSample} alt="How it works" />
+        <Container className="p-3">
+          <img className="mt-5 mb-3" src={VideoSample} alt="How it works" />
         </Container>
       </section>
 

@@ -1,6 +1,9 @@
 @import "../../_colors.scss";
+@import "../../_fonts.scss";
 
 #LandingPage {
+  font-family: "DMSans", sans-serif;
+
   .callToActionSection {
     background-color: $beige;
     background-image: url("../../assets/images/calltoaaction_bg.svg");
@@ -9,6 +12,7 @@
   }
 
   h1 {
+    font-family: "DMSans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -17,6 +21,7 @@
   }
 
   h2 {
+    font-family: "DMSans", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -25,6 +30,7 @@
   }
 
   h4 {
+    font-family: "DMSans", sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: $dark-gray;
@@ -39,6 +45,7 @@
     }
 
     p {
+      font-family: "DMSans", sans-serif;
       font-weight: 400;
       font-size: 20px;
       line-height: 30px;
@@ -85,8 +92,9 @@
 
   .getStarted {
     h3 {
+      font-family: "DMSans", sans-serif;
       color: $dark-gray;
-      font-size: 40px;
+      font-size: 32px;
       font-weight: 700;
     }
   }
@@ -98,12 +106,14 @@
   }
 
   #findPerfectAgent {
+    font-family: "DMSans", sans-serif;
     font-size: 32px;
     font-weight: 700;
     margin: 4rem auto;
   }
 
   .findPerfectAgentTitle {
+    font-family: "DMSans", sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 140%;
@@ -111,11 +121,13 @@
   }
 
   .findPerfectAgentSubTitle {
+    font-family: "DMSans", sans-serif;
     font-weight: 700;
     font-size: 24px;
   }
 
   .textMuted {
+    font-family: "DMSans", sans-serif;
     line-height: 30px;
     color: $gray2;
     font-weight: 400;
@@ -131,6 +143,7 @@
 
   #asSeenIn {
     h3 {
+      font-family: "DMSans", sans-serif;
       font-weight: 700;
       font-size: 32px;
     }
@@ -138,6 +151,7 @@
 
   #workTopAgents {
     h1 {
+      font-family: "DMSans", sans-serif;
       font-size: 32px;
     }
   }
