@@ -2,37 +2,56 @@
 @import "../../_fonts.scss";
 
 .transparentButton {
-    width: 100%;
-    padding: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 120%;
-    text-align: center;
-    text-transform: capitalize;
-    color: $dark-gray;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    background: transparent;
-    border: 1px solid $dark-gray;
-    cursor: pointer;
-    font-family: "DMSans", sans-serif;
+  width: 100%;
+  padding: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: capitalize;
+  color: $dark-gray;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: transparent;
+  border: 1px solid $dark-gray;
+  cursor: pointer;
+  font-family: "DMSans", sans-serif;
+}
 
-    &:active {
-        color: $gray;
-        background: $lightningWhite;
-      }
+.transparentButton:hover {
+  color: $gray;
+  background: $lightningWhite;
+  border: 1px solid $dark-gray;
+}
 
-  }
+.transparentButton:focus {
+  color: $gray;
+  background: $lightningWhite;
+  border: 1px solid $dark-gray;
+}
 
-  .transparentIcon {
-    color: $white;
-    padding-left: 5px;
-    font-family: "DMSans", sans-serif;
+.transparentButton:active {
+  color: $dark-gray;
+  background: $white;
+  border: 1px solid $dark-gray;
+}
 
-    &:active {
-        background: $dark-gray;
-      }
-  }
-  
+.transparentIcon {
+  color: $dark-gray;
+  padding-left: 5px;
+  font-family: "DMSans", sans-serif;
+}
+
+.transparentIcon:hover img {
+  color: $gray;
+}
+
+.transparentIcon:active img {
+  color: $gray;
+}
+
+.transparentIcon:focus img {
+  color: $gray;
+}

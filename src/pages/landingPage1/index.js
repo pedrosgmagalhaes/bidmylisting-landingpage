@@ -181,7 +181,7 @@ function LandingPage() {
       </section>
 
       <section id={styles.findPerfectAgent}>
-        <Container className="mt-5">
+        <Container className="mt-5 p-3">
           <h3>Get Paid Upfront to Find Your Perfect Agent</h3>
           <div className="d-flex justify-content-center align-items-center">
             <img src={HouseListing} alt="Get Paid Upfront to Find Your Perfect Agent" />
