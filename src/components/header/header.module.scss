@@ -1,5 +1,6 @@
 @import "../../_colors.scss";
 @import "../../_fonts.scss";
+@import "../../_mixin.scss";
 
 .header {
   font-family: "DMSans", sans-serif;
@@ -9,6 +10,15 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid $gray;
+  background-image: url("../../assets/images/calltoaaction_bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+  @include lg {
+    padding: 1rem 3rem;
+  }
+  
 }
 
 .header a {
@@ -26,7 +36,7 @@
   font-family: "DM Sans", sans-serif;
   color: $dark-gray;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 21px;
 }

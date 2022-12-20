@@ -24,7 +24,7 @@ function AgentTestimonial({
         <hr />
         <Row>
           <Col>
-            <div className="text-muted">{text}</div>
+            <div className={styles.text}>{text}</div>
           </Col>
         </Row>
       </Container>
