@@ -225,6 +225,16 @@
     margin: 4rem auto;
   }
 
+  .findPerfectAgentImage {
+    width: 100%;
+  }
+
+  .getPaidUpFront {
+    @include lg {
+      padding: 0 4rem;
+    }
+  }
+
   .findPerfectAgentTitle {
     font-family: "DMSans", sans-serif;
     font-weight: 700;
@@ -252,9 +262,32 @@
     background: $white-blue;
     border-radius: 24px;
     margin: 1rem;
+
+    h3 {
+      text-align: center;
+
+      @include lg {
+        font-weight: 700;
+        font-size: 34px;
+      }
+    }
+  }
+
+  .findAgentNextYouContainer {
+    @include lg {
+      max-width: 650px;
+      h3 {
+        margin-top: 5vh;
+      }
+    }
   }
 
   #asSeenIn {
+
+    @include lg{
+      margin: 10rem auto;
+    }
+
     h3 {
       font-family: "DMSans", sans-serif;
       font-weight: 700;

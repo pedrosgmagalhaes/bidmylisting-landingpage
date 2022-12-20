@@ -1,0 +1,59 @@
+@import "../../_colors.scss";
+@import "../../_fonts.scss";
+@import "../../_mixin.scss";
+
+#Footer {
+  .FooterLinks {
+    color: $dark-gray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    @include lg {
+      align-items: center;
+      justify-content: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 1rem 0;
+
+      @include lg {
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    li {
+      @include lg {
+        margin: 12px auto;
+        padding: 0;
+      }
+    }
+  }
+
+  .FooterRow {
+    margin: 0;
+    padding: 0;
+  }
+
+  .FooterContact {
+    display: Flex;
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    li {
+      padding-top: 1rem;
+    }
+  }
+
+  .FooterSocial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 170px;
+  }
+}
