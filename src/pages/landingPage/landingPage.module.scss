@@ -214,6 +214,10 @@
   .howItWorks {
     img {
       width: 100%;
+
+      @include md {
+        max-width: 300px;
+      }
     }
   }
 
@@ -226,6 +230,10 @@
 
   .findPerfectAgentImage {
     width: 100%;
+
+    @include sm {
+      max-width: 300px;
+    }
   }
 
   .getPaidUpFront {

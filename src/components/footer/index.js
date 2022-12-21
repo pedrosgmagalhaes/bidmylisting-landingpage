@@ -15,7 +15,7 @@ function Footer() {
     <section id={styles.Footer}>
       <Container className="mt-5">
         <Row>
-          <Col md={4} xs={12}>
+          <Col lg={4} md={12} xs={12}>
             <div className="d-flex flex-row">
               <Image className="mt-2" src={Logo} alt="As Seen In" />
             </div>
@@ -33,16 +33,16 @@ function Footer() {
               </small>
             </div>
           </Col>
-          <Col md={4} xs={12} className={styles.FooterLinks}>
+          <Col lg={4} md={12} xs={12} className={styles.FooterLinks}>
             <Row className={styles.FooterRow}>
-              <Col md={12} xs={6}>
+              <Col lg={12} md={6} xs={6}>
                 <ul>
                   <li>About Us</li>
                   <li>Blog</li>
                   <li>User Agreement</li>
                 </ul>
               </Col>
-              <Col md={12} xs={6}>
+              <Col lg={12} md={6} xs={6}>
                 <ul>
                   <li>Careers</li>
                   <li>Help Center</li>
@@ -51,7 +51,7 @@ function Footer() {
               </Col>
             </Row>
           </Col>
-          <Col md={4} xs={12}>
+          <Col lg={4} md={12} xs={12}>
             <div className={styles.FooterContact}>
               <ul>
                 <li>P: 323-515-0624</li>
