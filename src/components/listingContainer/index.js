@@ -8,17 +8,17 @@ function ListingComponent({ icon, title, description }) {
     <Row id={styles.ListingComponent}>
       <Col xs={12}>
         <Row className={styles.ListingComponentIcons}>
-          <Col md={6} xs={12}>
+          <Col lg={6} md={12} xs={12}>
             <Row>
-              <Col md={1} xs={2}>
+              <Col lg={1} md={2} xs={2}>
                 <img src={icon} alt={title} />
               </Col>
-              <Col md={11} xs={10} className="d-flex align-items-start">
+              <Col lg={11} md={10} xs={10} className="d-flex align-items-start">
                 <h4>{title}</h4>
               </Col>
             </Row>
           </Col>
-          <Col md={6} xs={12} className={styles.ListingComponentDescription}>
+          <Col lg={6} md={12} xs={12} className={styles.ListingComponentDescription}>
             <p>
               {description}
             </p>

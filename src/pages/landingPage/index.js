@@ -4,7 +4,7 @@ import {
 } from 'react-bootstrap';
 import { isBrowser, isMobile } from 'react-device-detect';
 
-import styles from './landingPage1.module.scss';
+import styles from './landingPage.module.scss';
 import Header from '../../components/header';
 import SearchInput from '../../components/searchInput';
 import Footer from '../../components/footer';
@@ -12,27 +12,29 @@ import TransparentButton from '../../components/transparentButton';
 import AgentTestimonial from '../../components/agentTestimonial';
 import ListingContainer from '../../components/listingContainer';
 
-import HouseCallToAction from '../../assets/images/house_calltoaction.png';
-import HouseCallToActionWeb from '../../assets/images/house_calltoaction_web.png';
-import MapIcon from '../../assets/images/map_icon.svg';
-import Mark from '../../assets/images/mark.svg';
-import Stars from '../../assets/images/stars.svg';
-import GoogleIcon from '../../assets/images/googleIcon.svg';
-import ArrowRightIcon from '../../assets/images/arrowRight.svg';
-import ListingIcon from '../../assets/images/listingIcon.svg';
-import GetSmartedIcon from '../../assets/images/getSmartedIcon.svg';
-import PickWinnerIcon from '../../assets/images/pickWinnerIcon.svg';
-import Journals from '../../assets/images/journals.svg';
-import JournalsWeb from '../../assets/images/journalsWeb.svg';
-import PriceIcon from '../../assets/images/iconPrice.svg';
-import GetPaidIcon from '../../assets/images/getPaidIcon.svg';
-import Arrow from '../../assets/images/arrow.svg';
-import VideoSample from '../../assets/images/videoPlaceHolder.png';
-import AvatarReca from '../../assets/images/avatarAirRecaWeaver.png';
-import HouseListing from '../../assets/images/houseListing.png';
-import AvatarSteveDavis from '../../assets/images/avatarSteveDavis.png';
-import AvatarBillieAnn from '../../assets/images/avatarBillieAnn.png';
-import TrustPilot from '../../assets/images/trustpilot.png';
+import {
+  HouseCallToAction,
+  HouseCallToActionWeb,
+  MapIcon,
+  Mark,
+  Stars,
+  GoogleIcon,
+  ArrowRightIcon,
+  ListingIcon,
+  GetSmartedIcon,
+  PickWinnerIcon,
+  Journals,
+  JournalsWeb,
+  PriceIcon,
+  GetPaidIcon,
+  Arrow,
+  VideoSample,
+  AvatarReca,
+  HouseListing,
+  AvatarSteveDavis,
+  AvatarBillieAnn,
+  TrustPilot,
+} from './images';
 
 function LandingPage() {
   const welcomeText = 'Welcome to the smartest way to sell your home. BidMyListing matches you with top local real estate agents ready to pay cash upfront to represent your home sale.';
@@ -44,7 +46,7 @@ function LandingPage() {
         <section className={styles.callToActionSection}>
           <Container className={styles.callToActionSectionContainer}>
             <Row>
-              <Col md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <h1 className="mt-4">Get Paid Cash to Meet Your Match</h1>
                 {isBrowser && (
                   <>
@@ -57,7 +59,7 @@ function LandingPage() {
                   </>
                 )}
               </Col>
-              <Col md={6} sm={12} className={styles.imageActionSection}>
+              <Col lg={6} md={12} sm={12} className={styles.imageActionSection}>
                 <Image
                   src={isMobile ? HouseCallToAction : HouseCallToActionWeb}
                   className={styles.imageAction}
@@ -96,7 +98,7 @@ function LandingPage() {
           <Container className={styles.customerReviewsSection}>
             <Row>
               {isBrowser && <Col className={styles.customerReviewsHr}><hr /></Col>}
-              <Col md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className={styles.customerReviews}>
                   <div className={styles.customerReviewsTitle}>
                     <span>
@@ -183,7 +185,7 @@ function LandingPage() {
           <Container>
             <h1 className="mt-5 mx-4">Work with Top Agents in Encinitas</h1>
             <Row>
-              <Col md={4} sm={12}>
+              <Col lg={4} md={12} sm={12}>
                 <span className="mt-3" />
                 <AgentTestimonial
                   avatar={AvatarReca}
@@ -194,7 +196,7 @@ function LandingPage() {
           and marketing for selling your home!"
                 />
               </Col>
-              <Col md={4} sm={12}>
+              <Col lg={4} md={12} sm={12}>
                 <span className="mt-3" />
                 <AgentTestimonial
                   avatar={AvatarBillieAnn}
@@ -206,7 +208,7 @@ function LandingPage() {
                 I also have extensive negotiating skills through training and experience."
                 />
               </Col>
-              <Col md={4} sm={12}>
+              <Col lg={4} md={12} sm={12}>
                 <span className="mt-3" />
                 <AgentTestimonial
                   avatar={AvatarSteveDavis}
@@ -226,7 +228,7 @@ function LandingPage() {
           <Container className="mt-5 p-3">
             <h3>Get Paid Upfront to Find Your Perfect Agent</h3>
             <Row>
-              <Col md={8} xs={12}>
+              <Col lg={8} md={12} sm={12}>
                 <div className="d-flex justify-content-center align-items-center">
                   <Image
                     className={styles.findPerfectAgentImage}
@@ -235,7 +237,7 @@ function LandingPage() {
                   />
                 </div>
               </Col>
-              <Col md={4} xs={12} className={styles.getPaidUpFront}>
+              <Col lg={4} md={12} sm={12} className={styles.getPaidUpFront}>
                 <div className="d-flex flex-direction-row align-items-center pt-2">
                   <span className="d-flex align-items-center">
                     <Image height="22px" src={PriceIcon} alt="Get Paid Upfront" />

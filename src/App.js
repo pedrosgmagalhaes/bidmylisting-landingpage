@@ -3,13 +3,13 @@ import { BrowserRouter } from 'react-router-dom';
 import LoadingSpinner from './components/loading';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const LandingPage1 = React.lazy(() => import('./pages/landingPage1'));
+const LandingPage = React.lazy(() => import('./pages/landingPage'));
 
 function App() {
   return (
     <BrowserRouter>
       <Suspense fallback={<LoadingSpinner />}>
-        <LandingPage1 />
+        <LandingPage />
       </Suspense>
     </BrowserRouter>
   );
