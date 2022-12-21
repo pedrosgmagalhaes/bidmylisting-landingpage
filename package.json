@@ -4,8 +4,6 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "husky": "^8.0.2",
@@ -16,9 +14,19 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.41.0",
     "react-router-dom": "^6.4.5",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "sass": "^1.56.2",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-css": "^0.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -49,13 +57,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "eslint": "^8.30.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-css": "^0.6.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }

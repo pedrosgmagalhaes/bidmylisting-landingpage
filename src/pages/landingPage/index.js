@@ -4,7 +4,7 @@ import {
 } from 'react-bootstrap';
 import { isBrowser, isMobile } from 'react-device-detect';
 
-import styles from './landingPage1.module.scss';
+import styles from './landingPage.module.scss';
 import Header from '../../components/header';
 import SearchInput from '../../components/searchInput';
 import Footer from '../../components/footer';
@@ -12,27 +12,29 @@ import TransparentButton from '../../components/transparentButton';
 import AgentTestimonial from '../../components/agentTestimonial';
 import ListingContainer from '../../components/listingContainer';
 
-import HouseCallToAction from '../../assets/images/house_calltoaction.png';
-import HouseCallToActionWeb from '../../assets/images/house_calltoaction_web.png';
-import MapIcon from '../../assets/images/map_icon.svg';
-import Mark from '../../assets/images/mark.svg';
-import Stars from '../../assets/images/stars.svg';
-import GoogleIcon from '../../assets/images/googleIcon.svg';
-import ArrowRightIcon from '../../assets/images/arrowRight.svg';
-import ListingIcon from '../../assets/images/listingIcon.svg';
-import GetSmartedIcon from '../../assets/images/getSmartedIcon.svg';
-import PickWinnerIcon from '../../assets/images/pickWinnerIcon.svg';
-import Journals from '../../assets/images/journals.svg';
-import JournalsWeb from '../../assets/images/journalsWeb.svg';
-import PriceIcon from '../../assets/images/iconPrice.svg';
-import GetPaidIcon from '../../assets/images/getPaidIcon.svg';
-import Arrow from '../../assets/images/arrow.svg';
-import VideoSample from '../../assets/images/videoPlaceHolder.png';
-import AvatarReca from '../../assets/images/avatarAirRecaWeaver.png';
-import HouseListing from '../../assets/images/houseListing.png';
-import AvatarSteveDavis from '../../assets/images/avatarSteveDavis.png';
-import AvatarBillieAnn from '../../assets/images/avatarBillieAnn.png';
-import TrustPilot from '../../assets/images/trustpilot.png';
+import {
+  HouseCallToAction,
+  HouseCallToActionWeb,
+  MapIcon,
+  Mark,
+  Stars,
+  GoogleIcon,
+  ArrowRightIcon,
+  ListingIcon,
+  GetSmartedIcon,
+  PickWinnerIcon,
+  Journals,
+  JournalsWeb,
+  PriceIcon,
+  GetPaidIcon,
+  Arrow,
+  VideoSample,
+  AvatarReca,
+  HouseListing,
+  AvatarSteveDavis,
+  AvatarBillieAnn,
+  TrustPilot,
+} from './images';
 
 function LandingPage() {
   const welcomeText = 'Welcome to the smartest way to sell your home. BidMyListing matches you with top local real estate agents ready to pay cash upfront to represent your home sale.';
